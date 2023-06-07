@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="ji.jpg" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julija Abrasonytė</title>
+
+  <style type="text/css">
+    body{
+      background-color: black;
+      align-content: center;
+    }
+
+    a {
+      color: white;
+    }
+
+    h1{
+      font-family: elevon, sans-serif;
+      color: hotpink;
+      font-size: 200px;
+    }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+
+  }
+
+  p {
+    color: hotpink;;
+    align-items: center;
+    align-self: center;
+    font-size: 70px;
+  }
+  </style>
+
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="birthday.html">BIRTHDAY</a>
+        <a href="paintings.html">PAINTINGS</a>
+        <a href="hobbies.html">HOBBIES</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1 id="count">10</h1>
+  </div>
+
+  <audio src="sound.mp3" id="my_audio" loop="loop"></audio>
+
+  <script type="text/javascript">
+  var counter=10;
+
+  setInterval ( function(){
+    counter--;
+    if(counter>=0){
+      id=document.getElementById("count");
+      id.innerHTML=counter;
+    }
+    if(counter===0){
+      id.innerHTML="SU!";
+
+    }
+  },1000);
+  </script>
+
+<script type="text/javascript">
+  setTimeout(function(){
+    document.getElementById("my_audio").play();
+    console.log('your audio is started just now');
+  }, 10000)
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+     setTimeout(function () {
+        $("body").append("<p>wau!</p>").fadeIn();
+     }, 12000);
+  });
+</script>
+
+  <script type="text/javascript">
+  $(document).ready(function () {
+     setTimeout(function () {
+        $("body").append("<p>22!</p>").fadeIn();
+     }, 11000);
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+     setTimeout(function () {
+        $("body").append("<p>I wish u</p>").fadeIn();
+     }, 15000);
+  });
+</script>
+
+
+<script type="text/javascript">
+  $(document).ready(function () {
+     setTimeout(function () {
+        $("body").append("<p>to get driving licence</p>").fadeIn();
+     }, 18000);
+  });
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+     setTimeout(function () {
+        $("body").append("<p>and stop ignoring so much loooooolXDD!</p>").fadeIn();
+     }, 19000);
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+     setTimeout(function () {
+        $("body").append("<p>Have a nice birthday and fun day!</p>").fadeIn();
+     }, 21000);
+  });
+</script>
+
+</body>
+</html>

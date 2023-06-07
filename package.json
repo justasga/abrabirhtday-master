@@ -1,0 +1,32 @@
+{
+  "name": "three-demo",
+  "version": "0.0.0",
+  "deploy": "gh-pages -d dist",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.3.0"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.0",
+    "normalize-url": ">=4.5.1",
+    "three": "^0.128.0"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justasga/abrabirhtday.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justasga/abrabirhtday/issues"
+  },
+  "homepage": "https://github.com/justasga/abrabirhtday#readme",
+  "description": ""
+}
